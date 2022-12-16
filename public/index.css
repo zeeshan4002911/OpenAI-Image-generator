@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: green;
+    text-align: center;
+    font-size: 20px;
+}
+
+form {
+    width: 80vw;
+    margin: 20px 10vw;
+    padding: 20px 0;
+}
+
+#text::placeholder {
+    text-align: center;
+}
+
+form>button, #text {
+    display: block;
+    margin: 20px auto;
+    background-color: green;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+form>button:active {
+    transform: scale(0.92);
+    box-shadow: 2px 2px 20px green;
+}
